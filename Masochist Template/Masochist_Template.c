@@ -16,7 +16,7 @@ kern_return_t Masochist_Template_start(kmod_info_t * ki, void *d)
 {
     // Replace SLIDE FIRST!
     
-    if(libmasochist_init() != KERN_SUCCESS)
+    if(libmasochist_init(0x0) != KERN_SUCCESS) // Set slide via slide.c
         return KERN_FAILURE;
     
     return KERN_SUCCESS;
