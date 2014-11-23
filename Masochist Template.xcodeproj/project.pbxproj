@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18FBAA181A2299DB00502A17 /* Masochist_Template.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA171A2299DB00502A17 /* Masochist_Template.c */; };
+		18FBAA2B1A229BA600502A17 /* cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA1F1A229BA600502A17 /* cpu.c */; };
+		18FBAA2C1A229BA600502A17 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA201A229BA600502A17 /* cpu.h */; };
+		18FBAA2D1A229BA600502A17 /* libmasochist.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA211A229BA600502A17 /* libmasochist.c */; };
+		18FBAA2E1A229BA600502A17 /* libmasochist.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA221A229BA600502A17 /* libmasochist.h */; };
+		18FBAA2F1A229BA600502A17 /* proc_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA231A229BA600502A17 /* proc_internal.h */; };
+		18FBAA301A229BA600502A17 /* process.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA241A229BA600502A17 /* process.c */; };
+		18FBAA311A229BA600502A17 /* process.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA251A229BA600502A17 /* process.h */; };
+		18FBAA321A229BA600502A17 /* symbol.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA261A229BA600502A17 /* symbol.c */; };
+		18FBAA331A229BA600502A17 /* symbol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA271A229BA600502A17 /* symbol.h */; };
+		18FBAA341A229BA600502A17 /* syscall.c in Sources */ = {isa = PBXBuildFile; fileRef = 18FBAA281A229BA600502A17 /* syscall.c */; };
+		18FBAA351A229BA600502A17 /* syscall.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA291A229BA600502A17 /* syscall.h */; };
+		18FBAA361A229BA600502A17 /* sysproto.h in Headers */ = {isa = PBXBuildFile; fileRef = 18FBAA2A1A229BA600502A17 /* sysproto.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18FBAA121A2299DB00502A17 /* Masochist Template.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Masochist Template.kext"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FBAA161A2299DB00502A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18FBAA171A2299DB00502A17 /* Masochist_Template.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Masochist_Template.c; sourceTree = "<group>"; };
+		18FBAA1F1A229BA600502A17 /* cpu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cpu.c; sourceTree = "<group>"; };
+		18FBAA201A229BA600502A17 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		18FBAA211A229BA600502A17 /* libmasochist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libmasochist.c; sourceTree = "<group>"; };
+		18FBAA221A229BA600502A17 /* libmasochist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libmasochist.h; sourceTree = "<group>"; };
+		18FBAA231A229BA600502A17 /* proc_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proc_internal.h; sourceTree = "<group>"; };
+		18FBAA241A229BA600502A17 /* process.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = process.c; sourceTree = "<group>"; };
+		18FBAA251A229BA600502A17 /* process.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = process.h; sourceTree = "<group>"; };
+		18FBAA261A229BA600502A17 /* symbol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = symbol.c; sourceTree = "<group>"; };
+		18FBAA271A229BA600502A17 /* symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symbol.h; sourceTree = "<group>"; };
+		18FBAA281A229BA600502A17 /* syscall.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syscall.c; sourceTree = "<group>"; };
+		18FBAA291A229BA600502A17 /* syscall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syscall.h; sourceTree = "<group>"; };
+		18FBAA2A1A229BA600502A17 /* sysproto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sysproto.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FBAA0E1A2299DB00502A17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18FBAA081A2299DB00502A17 = {
+			isa = PBXGroup;
+			children = (
+				18FBAA141A2299DB00502A17 /* Masochist Template */,
+				18FBAA131A2299DB00502A17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18FBAA131A2299DB00502A17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18FBAA121A2299DB00502A17 /* Masochist Template.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18FBAA141A2299DB00502A17 /* Masochist Template */ = {
+			isa = PBXGroup;
+			children = (
+				18FBAA1E1A229BA600502A17 /* libmasochist */,
+				18FBAA171A2299DB00502A17 /* Masochist_Template.c */,
+				18FBAA151A2299DB00502A17 /* Supporting Files */,
+			);
+			path = "Masochist Template";
+			sourceTree = "<group>";
+		};
+		18FBAA151A2299DB00502A17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18FBAA161A2299DB00502A17 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18FBAA1E1A229BA600502A17 /* libmasochist */ = {
+			isa = PBXGroup;
+			children = (
+				18FBAA1F1A229BA600502A17 /* cpu.c */,
+				18FBAA201A229BA600502A17 /* cpu.h */,
+				18FBAA211A229BA600502A17 /* libmasochist.c */,
+				18FBAA221A229BA600502A17 /* libmasochist.h */,
+				18FBAA231A229BA600502A17 /* proc_internal.h */,
+				18FBAA241A229BA600502A17 /* process.c */,
+				18FBAA251A229BA600502A17 /* process.h */,
+				18FBAA261A229BA600502A17 /* symbol.c */,
+				18FBAA271A229BA600502A17 /* symbol.h */,
+				18FBAA281A229BA600502A17 /* syscall.c */,
+				18FBAA291A229BA600502A17 /* syscall.h */,
+				18FBAA2A1A229BA600502A17 /* sysproto.h */,
+			);
+			name = libmasochist;
+			path = masochist/libmasochist;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		18FBAA0F1A2299DB00502A17 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBAA331A229BA600502A17 /* symbol.h in Headers */,
+				18FBAA2E1A229BA600502A17 /* libmasochist.h in Headers */,
+				18FBAA361A229BA600502A17 /* sysproto.h in Headers */,
+				18FBAA2F1A229BA600502A17 /* proc_internal.h in Headers */,
+				18FBAA311A229BA600502A17 /* process.h in Headers */,
+				18FBAA351A229BA600502A17 /* syscall.h in Headers */,
+				18FBAA2C1A229BA600502A17 /* cpu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		18FBAA111A2299DB00502A17 /* Masochist Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18FBAA1B1A2299DB00502A17 /* Build configuration list for PBXNativeTarget "Masochist Template" */;
+			buildPhases = (
+				18FBAA0D1A2299DB00502A17 /* Sources */,
+				18FBAA0E1A2299DB00502A17 /* Frameworks */,
+				18FBAA0F1A2299DB00502A17 /* Headers */,
+				18FBAA101A2299DB00502A17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Masochist Template";
+			productName = "Masochist Template";
+			productReference = 18FBAA121A2299DB00502A17 /* Masochist Template.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18FBAA091A2299DB00502A17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Squiffy;
+				TargetAttributes = {
+					18FBAA111A2299DB00502A17 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 18FBAA0C1A2299DB00502A17 /* Build configuration list for PBXProject "Masochist Template" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18FBAA081A2299DB00502A17;
+			productRefGroup = 18FBAA131A2299DB00502A17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18FBAA111A2299DB00502A17 /* Masochist Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18FBAA101A2299DB00502A17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18FBAA0D1A2299DB00502A17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18FBAA321A229BA600502A17 /* symbol.c in Sources */,
+				18FBAA341A229BA600502A17 /* syscall.c in Sources */,
+				18FBAA2D1A229BA600502A17 /* libmasochist.c in Sources */,
+				18FBAA301A229BA600502A17 /* process.c in Sources */,
+				18FBAA2B1A229BA600502A17 /* cpu.c in Sources */,
+				18FBAA181A2299DB00502A17 /* Masochist_Template.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		18FBAA191A2299DB00502A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		18FBAA1A1A2299DB00502A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		18FBAA1C1A2299DB00502A17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Masochist Template/Info.plist";
+				MODULE_NAME = com.squiffypwn.Masochist_Template;
+				MODULE_START = Masochist_Template_start;
+				MODULE_STOP = Masochist_Template_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		18FBAA1D1A2299DB00502A17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = "Masochist Template/Info.plist";
+				MODULE_NAME = com.squiffypwn.Masochist_Template;
+				MODULE_START = Masochist_Template_start;
+				MODULE_STOP = Masochist_Template_stop;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18FBAA0C1A2299DB00502A17 /* Build configuration list for PBXProject "Masochist Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBAA191A2299DB00502A17 /* Debug */,
+				18FBAA1A1A2299DB00502A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18FBAA1B1A2299DB00502A17 /* Build configuration list for PBXNativeTarget "Masochist Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18FBAA1C1A2299DB00502A17 /* Debug */,
+				18FBAA1D1A2299DB00502A17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18FBAA091A2299DB00502A17 /* Project object */;
+}

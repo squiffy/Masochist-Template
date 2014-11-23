@@ -1,0 +1,3 @@
+[submodule "masochist"]
+	path = masochist
+	url = git://github.com/squiffy/masochist.git
